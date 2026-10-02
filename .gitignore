@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+temp-bulletins/
+uploads/
+
+*.log
+
+.DS_Store
+Thumbs.db
+
+# Scripts de test locaux
+check-admin.cjs
+download-bulletins.js
+inspect-bulletins.js
+test-bulletins.js
+test-cloudinary.ts
+test-parent-children.js
+test-relations.js
+test-seaweed.cjs
